@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="preloader">
+        <img class="logo" src="./img/Logo.svg" alt="">
+        <img class="text" src="./img/path.svg" alt="">
+    </div>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .preloader {
+            box-sizing: border-box;
+            background-color: #d8e022;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px 100px 20px;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        .preloader .logo {
+            margin-bottom: 40px;
+            height: 60%;
+            max-width: calc(100vw - 40px);
+        }
+        
+        .preloader .text {
+            height: 35%;
+            max-width: calc(100vw - 40px);
+        }
+    </style>
+</body>
+
+</html>
