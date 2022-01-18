@@ -94,6 +94,7 @@ form {
 }
 
 .login-block {
+  text-decoration: none !important;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,6 +106,7 @@ form {
 }
 
 .login-block .ligin {
+  text-decoration: none !important;
   cursor: pointer;
   border: none;
   width: 350px;
@@ -541,9 +543,11 @@ header .wrapper .qr-scaner .corner.right-bottom-corner {
     font-size: 32px;
   }
   .login-block {
+    text-decoration: none;
     margin-bottom: 20px;
   }
   .login-block .ligin {
+    text-decoration: none;
     width: 250px;
     height: 60px;
     font-size: 32px;

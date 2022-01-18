@@ -74,11 +74,13 @@ form {
 }
 
 .login-block {
+    text-decoration: none !important;
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
     .ligin {
+        text-decoration: none !important;
         cursor: pointer;
         border: none;
         width: 350px;
@@ -377,8 +379,10 @@ header {
         font-size: 32px;
     }
     .login-block {
+        text-decoration: none;
         margin-bottom: 20px;
         .ligin {
+            text-decoration: none;
             width: 250px;
             height: 60px;
             font-size: 32px;
